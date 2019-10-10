@@ -1,35 +1,38 @@
 * {
     box-sizing: border-box;
-    text-align: center;
 
   }
 header{
-    height: 120px;
-    text-align: center;
-    background: #1abc9c;
-    color: white;
-    font-size: 30px;
-    margin:auto;
+    height: 108px;
+    background: white;
+    font-size: 20px;
+    margin: auto;
+    width: 101%;
+    margin-left: -10px;
+    margin-top: -10px;
+    border-bottom: 5px solid black;
   }
   h1{
       float: left;
       overflow: auto;
       text-decoration-color: white;
-      background:black;
-      border: 3px groove #eee;
+      font-family:sans-serif;
+      background: rgb(47, 211, 129);
       text-align: center;
-      margin-top:50px;
+      margin-top:40px;
+      margin-left: 80px;
+      padding:10px;
+  }
+  h2{
+    text-decoration: underline red;
   }
   .contact{
     float: right;
     overflow: auto;
     text-decoration-color: white;
-    background: yellow;
-    border: 1px solid #eee;
-    text-align: center;
-    margin-top: 84px;
-    margin-right: 14px;
-  }
+    margin-top: 60px;
+    margin-right: 40px;
+}
 .text{
       width: 40%;
       margin:auto;
@@ -37,16 +40,20 @@ header{
       padding:20px;
       margin-top: 6%;
       overflow: auto;
+      border:1px solid grey;
   }
 .main{
   clear:both;
 }
 footer{
+    font-weight: bolder;
+    background:#cccccc;
+    font-size: 12px;
+    border-top:5px solid black;
     padding: 50x;
     height: 50px;
     margin-top: 90px;
     color: #333;
-    background: #FFA500;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -56,8 +63,11 @@ footer{
 
 .image{
   float:left;
+  padding: 20px;
 }
 body{
-  background:rgb(247, 229, 161);
+  background-color: #cfe08b;
+background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+/* found on website "transparrenttextures.com */
   width: 100%;
 }
