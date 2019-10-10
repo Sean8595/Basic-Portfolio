@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+
+  }
+header{
+    padding: 50x;
+    height: 100px;
+    margin-bottom: 90px;
+    color: #333;
+    background: #FFA500;
+    margin: auto;
+  }
+  h1{
+        float: left;
+        width: 339px;
+        height: 79px;
+        padding: 14px;
+        margin-left: 175px;
+        text-decoration-color: white;
+        background: #a6b747;
+        border: 1px solid #eee;
+        position:
+  }
+  .contact{
+      float: right;
+      width: 339px;
+      height: 79px;
+      padding: 14px;
+      margin-left: 175px;
+      text-decoration-color: white;
+      background: #a6b747;
+      border: 1px solid #eee;
+  }
+.body{
+      width: 30%;
+      margin:auto;
+      background:blue;
+      padding:10px;
+  }
+footer{
+    padding: 50x;
+    height: 50px;
+    margin-top: 90px;
+    color: #333;
+    background: #FFA500;
+}
